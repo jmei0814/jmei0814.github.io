@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jason Mei's site</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href = "https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link href = "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Georgia:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href = "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #0a0a0b;
@@ -21,7 +20,7 @@
     --accent: #FF6461;
     --accent-dim: rgba(255, 100, 97, 0.08);
     --accent-glow: rgba(255, 100, 97, 0.15);
-    --serif: 'Georgia', serif;
+    --serif: 'Gelasio', serif;
     --sans: 'Sora', sans-serif;
     --mono: 'DM Mono', monospace;
     --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -160,7 +159,7 @@
   .hero-links a.primary:hover { background: #ff7d7a; transform: translateY(-2px); }
 
   /* ── SECTIONS ── */
-  section { padding: 3rem 1rem; max-width: 1200px; margin: 0 auto; }
+  section { padding: 6rem 2.5rem; max-width: 1200px; margin: 0 auto; }
   .section-header {
     display: flex; justify-content: space-between; align-items: flex-end;
     margin-bottom: 3rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border);
@@ -784,7 +783,7 @@
   <div class="footer-top reveal">
     <div class="footer-cta"><h2>Let's <em>chat</em>!</h2><p>Feel free to reach me, I'm always available!</p></div>
     <div class="footer-links-grid">
-      <a href="mailto:jasonm5@illinois.edu">Email</a>
+      <a href="#" id="emailCopyBtn" data-email="jasonm5@illinois.edu">Email</a>
       <a href="https://www.linkedin.com/in/jmei0814/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/jmei0814" target="_blank" rel="noopener">Github</a>
       <a href="https://drive.google.com/file/d/1Vnn1l7UBPKSPN8tIrIrjVqToDo0UPyIc/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
@@ -1163,6 +1162,30 @@
       closeModal();
     }
   });
+
+  // ── EMAIL COPY BUTTON ──
+  const emailBtn = document.getElementById('emailCopyBtn');
+  if (emailBtn) {
+    const originalText = emailBtn.textContent;
+    const email = emailBtn.dataset.email;
+    emailBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      try {
+        await navigator.clipboard.writeText(email);
+        emailBtn.textContent = 'Copied! ' + email;
+      } catch (err) {
+        // Fallback: select text in a temp textarea
+        const ta = document.createElement('textarea');
+        ta.value = email;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); emailBtn.textContent = 'Copied! ' + email; }
+        catch (_) { emailBtn.textContent = email; }
+        document.body.removeChild(ta);
+      }
+      setTimeout(() => { emailBtn.textContent = originalText; }, 2500);
+    });
+  }
 
   // Helpers
   function escHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
