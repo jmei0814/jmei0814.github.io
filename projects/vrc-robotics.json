@@ -1,0 +1,19 @@
+{
+  "title": "99809A - VRC Robotics",
+  "subtitle": "Completed April 2021",
+  "subheader": "99809A was the VRC robotics team that I was a part of during high school. We competed in the 2020-2021 season, and qualified for the state championship, but were unable to attend due to COVID-19.",
+  "status": "Completed",
+  "heroImage": "projects/vrc-robotics/hero.jpg",
+  "content": [
+    {
+      "type": "link",
+      "url": "https://robotstatistics.com/teams/125347",
+      "label": "Robot Statistics for 99809A",
+      "icon": "external"
+    },
+    {
+      "type": "text",
+      "value": "VexDB is now deprecated, so there's very little information about our VRC robotics team online."
+    }
+  ]
+}

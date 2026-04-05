@@ -1,0 +1,29 @@
+{
+  "title": "Robobrawl Committee - 2023",
+  "subtitle": "Completed April 2023",
+  "subheader": "I did the audio visual work for iRobotics' Robobrawl 2023 event at Engineering Open House, designing digital and physical elements that created a strong visual identity.",
+  "status": "Completed",
+  "heroImage": "projects/robobrawl-committee/hero.jpg",
+  "content": [
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "url": "https://www.youtube.com/embed/GemzIuJSotc",
+      "size": "medium",
+      "label": "This year's trailer that I made in Adobe Premiere Pro and After Effects."
+    },
+    {
+      "type": "image",
+      "src": "projects/robobrawl-committee/ready-button-cad.png",
+      "size": "medium",
+      "caption": "A \"ready\" button that would be used to signal to the hosts that each team was ready."
+    },
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "url": "https://www.youtube.com/embed/51X9LGTJhaU",
+      "size": "medium",
+      "label": "The second day of matches as an uncut livestream. The stream was hosted on both Twitch and YouTube, with the latter gaining 2000 different viewers. "
+    }
+  ]
+}

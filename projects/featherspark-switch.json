@@ -1,0 +1,36 @@
+{
+  "title": "Featherspark Switch - 30lb. Combat Switch",
+  "subtitle": "Completed November 2025",
+  "status": "Completed",
+  "subheader": "I am currently working on a new switch for 30lb combat robots, as a successor to the Team Whyachi MS-05. What initially started as a final project for TE461 (Technology Entrepreneurship), is now a lesson in electrical design.",
+  "heroImage": "projects/featherspark-switch/hero.png",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/featherspark-switch/cad.png",
+      "caption": "Fusion360 CAD model of the switch.",
+      "size": "medium"
+    },
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "url": "https://www.youtube.com/embed/e7lPHCqdM_c",
+      "size": "medium",
+      "label": "My TE461 video presentation for the switch."
+    },
+    {
+      "type": "heading",
+      "value": "Initial Prototype"
+    },
+    {
+      "type": "image",
+      "src": "projects/featherspark-switch/physical.png",
+      "caption": "First physical prototype.",
+      "size": "medium"
+    },
+    {
+      "type": "text",
+      "value": "The intial design was made in a Send Cut Send order where I ordered the copper directly from the manufacturer. I additionally made some extra test cuts using the MechSE waterjet, which required only minimal sanding and cutting. The prototype is going to the sophomore team (Interestingly Engineered Device) for their robot Killswitch. I'm already working on improvements to the internal design, primarily switching out the internal rectangular rails with circular cutouts for the countersink."
+    }
+  ]
+}

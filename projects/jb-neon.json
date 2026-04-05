@@ -1,0 +1,15 @@
+{
+  "title": "jb_neon - CS:GO Map",
+  "subtitle": "Completed November 2021",
+  "subheader": "jb_neon is a custom Counter-Strike: Global Offensive map, made over the summer as passion project. It is currently being hosted on the Steam-Gamers JailBreak Server, and has received positive feedback from the community.",
+  "status": "Completed",
+  "heroImage": "projects/jb-neon/hero.jpg",
+  "content": [
+    {
+      "type": "link",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2209255535",
+      "label": "Steam Workshop Page",
+      "icon": "external"
+    }
+  ]
+}

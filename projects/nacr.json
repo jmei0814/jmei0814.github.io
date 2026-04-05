@@ -1,0 +1,124 @@
+{
+  "title": "Not A Combat Robot - 1lb. Combat Robot",
+  "subtitle": "ECE110 Honors \u2014 Completed November 2023",
+  "status": "Completed",
+  "subheader": "Not A Combat Robot (NACR)'s chassis was a semester-long project for ECE110 Honors, a 1lb. autonomous undercutter combat robot. The name was chosen because the within the project paper, the term \"weapon\" was banned.",
+  "heroImage": "projects/nacr/hero.jpg",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/nacr/image1.jpg",
+      "caption": "The robot fully closed with its undercutter weapon.",
+      "size": "medium"
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/nacr/image2.png",
+            "caption": "",
+            "size": "medium"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/nacr/image3.jpg",
+            "caption": "",
+            "size": "medium"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "value": "The render and the final wiring for the ECE110 Honors demonstration."
+    },
+    {
+      "type": "image",
+      "src": "projects/nacr/nacr-flow-diagram.png",
+      "size": "medium",
+      "caption": "The connection diagram that was used to wire the robot."
+    },
+    {
+      "type": "text",
+      "value": "The autonomous portion of the robot is in progress, using an STM32 microcontroller paired with a Raspberry Pi Pico for controlling ESCs. The control system uses a Canny edge detection algorithm based off of a webcam to identify colors that aren't the back wall, and uses its gyroscopic and time-of-flight sensor to drive towards the robot. The robot was developed in Thonny, and used a Raspberry PI Pico for its logic path. The microcontroller read PWM inputs from the receiver of the robot, and interpreted a 3-position switch as either \"shut-off\" mode, \"control override\" mode, and \"autonomous\" mode."
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "embed",
+            "embedType": "youtube",
+            "url": "https://www.youtube.com/embed/TjS9KQbHMrM?start=517",
+            "size": "medium",
+            "label": "NACR vs Tender Love and Carnage, ending in a judges' decision for NACR. The fight starts at 8:37."
+          }
+        ],
+        [
+          {
+            "type": "link",
+            "url": "https://github.com/jmei0814/NACR",
+            "label": "GitHub Notebook",
+            "icon": "github"
+          },
+          {
+            "type":"text",
+            "value": "The codebase repository on github, free for the public to use. In case someone in the future decides to try reading PWM on a Raspberry Pi Pico, the method used in my file is probably the best you can get out of such limited hardware."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "value": "The Battery Fire"
+    },
+    {
+      "type": "text",
+      "value": "You'll note that the chassis on NACR is black for its fights at DPD Fall 2023, but had a blue chassis for the ECE110 Honors presentation. That is because in between those two times, NACR caught fire due to a short. The short was determined to be non-human error, but rather a faulty ESC that had shorted over, causing a complete fire within the robot. Thankfully, I was able to get the entire chassis reprinted within a day, and it was driving like normal after a full teardown and rebuild."
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/nacr/image4.png",
+            "caption": ""
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/nacr/image5.png",
+            "caption": ""
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/nacr/reprint.gif",
+            "caption": ""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "value": "DPD November Results and Future Work"
+    },
+    {
+      "type": "text",
+      "value": "NACR finished in 17th place, ending at a 1-2 record at the tournament. The outcome was relatively expected, since the robot was not really as competitive as some of the other bots it was facing. That is not to say that NACR didn't have a ton of unknown shortcomings. For instance, it was discovered after some increases to the weapon's power, upon high draw, the voltage sag to the BEC (battery eliminator circuit) of the dual ESC (electronic speed controller) would sink below 5V, the operating voltage of the Pico. The microcontroller would brown out, causing the entire robot to shut down, and would then try to reboot. For the future, NACR will likely not be returning, but this experience got me into developing other robots, and I will be working to make each robot better."
+    },
+    {
+      "type": "image",
+      "src": "projects/nacr/image6.png",
+      "caption": "NACR experiencing same battle damage, post-DPD.",
+      "size": "small"
+    }
+  ]
+}

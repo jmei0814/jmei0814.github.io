@@ -1,0 +1,56 @@
+{
+  "title": "BABA IS YOU - ECE385 Final Project",
+  "subtitle": "Completed May 2024",
+  "status": "Completed",
+  "subheader": "BABA IS YOU is a puzzle video game developed by Arvi Teikari, a Finnish indie game developer. For our digital systems final project, we decided to port the hit game onto an FPGA board.",
+  "heroImage": "projects/baba-is-you/hero.png",
+  "content": [
+    {
+      "type": "text",
+      "value": "Context! From the game's website: \"Baba Is You is a puzzle game where the rules you have to follow are present as physical objects in the game world. By manipulating the rules, you can change how the game works, repurpose things you find in the levels and cause surprising interactions!\" Our final project involved a significant amount of labor, and the final state of the game allowed it to receive nearly maximum credit."
+    },
+    {
+      "type": "image",
+      "src": "projects/baba-is-you/level.png",
+      "size": "medium",
+      "caption": "This is the version of the level from the official game. The core idea of the level is identical, but there are some minor cosmetic changes for our level."
+    },
+    {
+      "type": "text",
+      "value": "Much of our work is documented in our final report and video. We decided to recreate an relatively early level in the game, \"Unreachable Shores\", where the goal is to get KEKE to reach the flag. Don't watch the video for spoilers!"
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "embed",
+            "embedType": "google-doc",
+            "url": "https://drive.google.com/file/d/1pRy8fweFGJ56Vj36b9A6H3pcMM2yTwUzBiR-FJSN4ZU/preview",
+            "label": "ECE385 Final Project Report",
+            "ratio": "4:3"
+          }
+        ],
+        [
+          {
+            "type": "embed",
+            "embedType": "youtube",
+            "url": "https://www.youtube.com/embed/QzWVt_0CywQ",
+            "size": "medium",
+            "label": "Our final project demonstration, showcasing the game and our development process."
+          },
+          {
+            "type": "link",
+            "url": "https://github.com/jmei0814/BABAISYOU",
+            "label": "GitHub Notebook",
+            "icon": "github"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "value": "This final project brought us to the very limits of both Vitus, which we used for game logic and VRAM writing, as well as Vivado Design Suite, which was used for VRAM decoding and displaying over HDMI. We ended the project with a 8/10 for difficulty, among the highest ratings across the class."
+    }
+  ]
+}

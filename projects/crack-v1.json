@@ -1,0 +1,53 @@
+{
+  "title": "CRACK? - 30lb. Combat Robot",
+  "subtitle": "Completed March 2023",
+  "subheader": "As the Electrical Team Lead of the Freshman Combots team at iRobotics, I worked on building and driving a 30lb overhead hammer-axe omni-drive robot, modeled after SHATTER!, a 250lb robot that competes on BattleBots.",
+  "status": "Completed",
+  "heroImage": "projects/crack-v1/hero.png",
+  "content": [
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/crack-v1/image1.jpg",
+            "caption": "The damaged robot and team after our last match at Robobrawl 2023."
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/crack-v1/image2.png",
+            "caption": "Final CAD of the planned robot."
+          }
+        ]  
+      ]
+    },
+    {
+      "type": "carousel",
+      "images": [
+        {
+          "src": "projects/crack-v1/image3.png",
+          "caption": "The connection plan for the drivetrain."
+        },
+        {
+          "src": "projects/crack-v1/image4.jpg",
+          "caption": "Final wiring image."
+        },
+        {
+          "src": "projects/crack-v1/image5.png",
+          "caption": "The top-down wiring diagram of the robot, which would promptly be unused due to spacing issues."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "value": "Results"
+    },
+    {
+      "type": "text",
+      "value": "We ended up finishing with an 0-2 record after a catastrophic first hit to the junior team's Budget Extinction to one of our mecanum wheels, and a burnt out UBEC (universal battery elimination circuit) crippling our drive in our second match against Jade. However, we are planning on revising this robot for the upcoming sophomore year."
+    }
+  ]
+}

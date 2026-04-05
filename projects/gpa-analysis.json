@@ -1,0 +1,19 @@
+{
+  "title": "GPA Analysis over Time at UIUC",
+  "subtitle": "IS312 \u2014 Completed October 2023",
+  "subheader": "For the IS312 course, we were tasked with developing a \"literate programming document\" that was supposed to develop an argument, or tell a story with data. I used Google Colaboratory, python experience and the UIUC GPA dataset to analyze the change in GPA of courses, and specific colleges across all of UIUC.",
+  "status": "Completed",
+  "heroImage": "projects/gpa-analysis/hero.png",
+  "content": [
+    {
+      "type": "link",
+      "url": "https://colab.research.google.com/drive/163CbReEGeYig2YbGrNRslWWUW7oJ27C8?usp=sharing",
+      "label": "The article!",
+      "icon": "external"
+    },
+    {
+      "type": "text",
+      "value": "Some of the information (text boxes) may not line up exactly with the data shown, since this was written and updated during the Fall 2023 semester. However, it should still update properly."
+    }
+  ]
+}

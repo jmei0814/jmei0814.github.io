@@ -1,0 +1,13 @@
+{
+  "title": "BulletRevisor - Resume Revisor",
+  "subtitle": "Fall 2025 \u2014 Ongoing",
+  "subheader": "A small-scale app that tailors a LaTEX resume's bullet points to any given job description using embedding similarity.",
+  "status": "Ongoing",
+  "heroImage": "projects/bullet-revisor/hero.png",
+  "content": [
+    {
+      "type": "text",
+      "value": "Currently in the early stages of development, BulletRevisor is a project that I'm working on to help automate the process of tailoring resumes to specific job descriptions. The idea is to use embedding similarity to analyze the bullet points in a LaTEX resume and compare them to the requirements and responsibilities listed in a job description. The app will then suggest modifications to the bullet points to better align with the job description, making it easier for applicants to create targeted resumes that stand out to recruiters."
+    }
+  ]
+}

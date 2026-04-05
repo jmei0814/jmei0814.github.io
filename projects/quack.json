@@ -1,0 +1,58 @@
+{
+  "title": "quack. - Modular 30lb. Combat Robot",
+  "subtitle": "Completed February 2025, currently competing",
+  "status": "Competing",
+  "subheader": "For our final year robot, we decided to build a robot that was a lot closer to the meta for the 30lb division. In continuing the Freshman Combots naming tradition, as well as the \"senior year bird name\" tradition, we decided to name the robot \"quack.\"",
+  "heroImage": "projects/quack/hero.png",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/quack/all-modules.jpg",
+      "caption": "Both of the quack. chassis with all four configurations. Left to right: Small vert, beater bar, horizontal, and big vert."
+    },
+    {
+      "type": "heading",
+      "value": "NHRL February 2026 Open - 5-8th Place"
+    },
+    {
+      "type": "text",
+      "value": "quack. was sooo close to breaking our quarterfinals curse. After two late nights working on the robot, the team was able to get both chassis fully working the day before the event. Testing all four of our weapon modules was also something that was super cool, to see everything finally fall into place. In our first fight against Emperor, the #2 seeded bot at the event, we were able showcase all of that power in our first (and only) direct hit. The beater bar module sounds like an air raid siren, it was by far the loudest weapon at that competition."
+    },
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "url": "https://www.youtube.com/embed/bedy5i5XyLY?start=11543",
+      "size": "medium",
+      "label": "quack. vs Emperor at NHRL February 2026 Open. The fight starts at 3:12:23."
+    },
+    {
+      "type": "text",
+      "value": "In the playoffs, our fight that knocked us out of the tournament was due to a material mismatch. Our AR500 metal turned out to be much softer than we thought, so despite getting some decent hits at the start of the match, we simply bounced, not cut, against the opponent's wedge. We didn't lose too much, but we tapped out pretty quickly after our weapon went down. This is the closest we've gotten to doing well at NHRL, and for it to be its debut, I'm super excited about what comes next in the future. We fight next at Robobrawl 2026, where anything less than a semi-finals appearance will be 100% a disappointment."
+    },
+    {
+      "type": "heading",
+      "value": "Robobrawl 2026 - 3-4th Place"
+    },
+    {
+      "type": "text",
+      "value": "quack. was able to finally break our quarterfinals curse! We went into Robobrawl 2026 with some slight tweaks to the chassis, and a replaced reach vert weapon disk. Our first four fights were all pretty dominant, highlighted with a complete dismantling of Steeluki 5.0. With a quarterfinal win against Train Wreck, we've secured a win with every module so far."
+    },
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "size": "medium",
+      "url": "https://www.youtube.com/embed/eRovHVZ4XBA?start=1355",
+      "label": "quack. vs Steeluki 5.0 at Robobrawl 2026. The fight starts at 22:35."
+    },
+    {
+      "type": "text",
+      "value": "In our semi-final fight against Killswitch, our weapon motor shaft snapped due to high shock forces of going weapon-on-weapon with a 9lb beater bar. Once our weapon went down, we were unable to do any significant damage, and lost after getting pinned to the wall. Post graduation, we're planning on replacing the Castle 1717 with a TP4070 SVM, and competing at NHRL July at Open Sauce 2026."
+    },
+    {
+      "type": "image",
+      "size": "small",
+      "src": "projects/quack/robobrawl-2026.png",
+      "caption": "quack and Killswitch at Robobrawl 2026. Taken by Chris from Missouri S&T."
+    }
+  ]
+}

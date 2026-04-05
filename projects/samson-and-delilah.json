@@ -1,0 +1,21 @@
+{
+  "title": "Samson and Delilah for a Quartet",
+  "subtitle": "Completed August 2023",
+  "subheader": "This past summer, I took part of a quartet as first violinist. While picking out songs, I realized that I wanted to arrange a piece I had played back in high school, so I did just that.",
+  "status": "Completed",
+  "heroImage": "projects/samson-and-delilah/hero.png",
+  "content": [
+    {
+      "type": "embed",
+      "embedType": "external",
+      "url": "https://musescore.com/user/27187548/scores/11818570/s/nUejEN/embed",
+      "size": "medium",
+      "ratio": "5:4",
+      "label": "Samson and Delilah - Saint-Saëns"
+    },
+    {
+      "type": "text",
+      "value": "I had performed the orchestral version at All-County 2018, and I still adore this piece to this day. This version is for a string quartet: two violins, viola, and a cello. I tried to capture some of the most iconic portions of the piece despite not having any form of band or percussion, such as by integrating the timpani solo into three players playing as hard as possible."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Whack! - 30lb. Combat Robot",
+  "subtitle": "Completed June 2025",
+  "status": "Completed",
+  "heroImage": "projects/whack/hero.jpg",
+  "content": [
+    {
+      "type": "text",
+      "value": "After succeeding with CRACK? V2 at Robobrawl 2024 and NHRL Teams, our team decided to embark on a new design to build a robot modelled after a different robot, Thagomizer."
+    },
+    {
+      "type": "image",
+      "src": "projects/whack/cad.png",
+      "caption": "CAD Render of WHACK."
+    },
+    {
+      "type": "heading",
+      "value": "Results"
+    },
+    {
+      "type": "heading",
+      "value": "NHRL February 2025 Open - 5-8th Place"
+    },
+    {
+      "type": "text",
+      "value": "Whack had a weak showing at this event. Drivetrain issues plagued the robot, causing us to get counted out despite having a fully working weapon. When the drive did work, we did insane damage to our opponents, being able to shatter a full TPU side plate against GHOUL, and chopping off bunny ears and crippling the weapon against Goose. 5th-8th place out of 11 robots was worse than we were hoping for, and we'll be making some changes and prepping for Robobrawl."
+    },
+    {
+      "type": "image",
+      "src": "projects/whack/cute-stack.png",
+      "size": "medium",
+      "caption": "Cute stack up of the three different thagomizer-styled robots, each competing in different weight classes.\n  From bottom up: Whack! [30lbs, ours], Maximizer [12lbs, Jake Hoffman], Unknown [Jaaron Leibson]"
+    },
+    {
+      "type": "heading",
+      "value": "Robobrawl X - 17-23rd Place"
+    },
+    {
+      "type": "text",
+      "value": "Whack had another disappointing showing at Robobrawl X. We swapped to a chained drive to fix the issue with the extreme tension and tearing belts, but we still had another issue, where the weapon almost fully unscrewed itself during its bracket qualifying match against Steeluki. We did have some excellent hits in our match against KITT, but we seem to be limited by the startup torque. We also got launched into the wall and scratched the polycarbonate walls. We hope to fix this by artificially sensoring our motor with a custom board, and hopefully perform at our next event: NHRL Open June."
+    },
+    {
+      "type": "columns",
+      "ratio": [30, 70],
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/whack/robobrawl-x.png",
+            "caption": "Ryan next to the torn section of the wall after getting launched by Goose at Robobrawl X."
+          }
+        ],
+        [
+          {
+            "type": "embed",
+            "embedType": "youtube",
+            "url": "https://www.youtube.com/embed/KY_SMklwIEQ?start=19921",
+            "label": "quack. vs KITT at Robobrawl X. The fight starts at 5:32:01."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "value": "NHRL Open June - 13-16th Place"
+    },
+    {
+      "type": "text",
+      "value": "More drive issues plagued this event. We took an immediate loss against Termigator, where the forks bent under the wedge, stalling us out and leading to a knockout in our first match. Our second match was more of the same, where we instead were high centered on screws that had loosened due our weapon's center of mass no longer being in the center. The weapon worked well when it did hit: in a single slice, we chopped off Termigator's entire right drive side, cutting through TPU and gashing their motor. Whack may return in the future, but improvements are needed."
+    }
+  ]
+}

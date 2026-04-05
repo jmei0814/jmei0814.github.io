@@ -1,0 +1,30 @@
+{
+  "title": "Humanoid Sit-Down Control",
+  "subtitle": "ECE598JK \u2014 Completed December 2025",
+  "subheader": "We investigated whether a humanoid robot can learn a stable and generalizable sit-down maneuver using reinforcement learning, rather than relying on hand-designed trajectories or simplified dynamic models.",
+  "status": "Completed",
+  "heroImage": "projects/humanoid-sit-down/hero.png",
+  "content": [
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "embed",
+            "embedType": "google-slides",
+            "url": "https://docs.google.com/presentation/d/1ycosnvHZUi84GsXyQWniVs-JHmlYmXFtznQgh3CEkSk/embed",
+            "label": "ECE598JK Final Presentation"
+          }
+        ],
+        [
+          {
+            "type": "embed",
+            "embedType": "google-doc",
+            "url": "https://drive.google.com/file/d/19UZW-y5smyDZHFfWSHUBFZrV5pCMww3s/preview",
+            "label": "ECE598JK Final Report"
+          }
+        ]
+      ]
+    }
+  ]
+}

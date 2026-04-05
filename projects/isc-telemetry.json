@@ -1,0 +1,30 @@
+{
+  "title": "ISC Telemetry UI Redesign",
+  "subtitle": "Illini Solar Car \u2014 Passed on September 2023",
+  "subheader": "As part of the Illini Solar Car's strategy team, I am working on a user interface redesign of the team's telemetry app, with the goal to make a more readable UI from the ground up.",
+  "status": "Completed",
+  "heroImage": "projects/isc-telemetry/hero.png",
+  "content": [
+    {
+      "type": "carousel",
+      "images": [
+        {
+          "src": "projects/isc-telemetry/image1.png",
+          "caption": "Images of the rehauled design, using a monospace font, as well as a cleaner graph setup."
+        },
+        {
+          "src": "projects/isc-telemetry/image2.png",
+          "caption": "Images of the rehauled design, using a monospace font, as well as a cleaner graph setup."
+        },
+        {
+          "src": "projects/isc-telemetry/image3.png",
+          "caption": "Images of the rehauled design, using a monospace font, as well as a cleaner graph setup."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "For this project, I worked with and learned the React.JS frontend, while interviewing former and current ISC higherups. I hope to finish this project by the time the team prepares for the next race, most likely for ASC 2024. A majority of the coding and development has been passed on to other strategy team members, but I still am heading the project, and plan on reiterating designs based on user unit tests."
+    }
+  ]
+}

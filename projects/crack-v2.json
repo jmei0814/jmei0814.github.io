@@ -1,0 +1,133 @@
+{
+  "title": "CRACK? V2 - 30lb. Combat Robot",
+  "subtitle": "Completed June 2024",
+  "status": "Completed",
+  "subheader": "After bombing out of Robobrawl 2023, our team worked on rebuilding and developing a new 30lb overhead hammer-axe omni-drive robot, modeled after SHATTER!, a 250lb robot that competes on BattleBots.",
+  "heroImage": "projects/crack-v2/hero.jpg",
+  "content": [
+    {
+      "type": "text",
+      "value": "Freshmen Combots' first event did not go very well. After suffering two tragic losses at Robobrawl 2023, we were determined to rebuild CRACK and build an actually usable robot."
+    },
+    {
+      "type": "carousel",
+      "images": [
+        {
+          "src": "projects/crack-v2/photoshoot.jpeg",
+          "caption": "CRACK V2 photoshoot with an underglow."
+        },
+        {
+          "src": "projects/crack-v2/cad.png",
+          "caption": "Final CAD of the robot."
+        },
+        {
+          "src": "projects/crack-v2/nhrl-jan.jpg",
+          "caption": "We ended up being put on NHRL's socials with this image!"
+        },
+        {
+          "src": "projects/crack-v2/group-nhrl-jan.jpg",
+          "caption": "Group picture of Freshmen Combots the day before we left for the competition."
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "type": "heading",
+      "value": "CRACK V2 at NHRL January"
+    },
+    {
+      "type": "text",
+      "value": "At the NHRL January 2024 \"New Year, New Bots\" event, CRACK V2 competed with a separate minibot, named STACK. STACK was a dual servo cam lifter, that was able to pick up opposing robots."
+    },
+    {
+      "type": "carousel",
+      "images": [
+        {
+          "src": "projects/crack-v2/stack-cad.png",
+          "caption": "Final CAD of STACK."
+        },
+        {
+          "src": "projects/crack-v2/stack-and-crack.jpg",
+          "caption": "STACK and CRACK (with top armor) for its picture at NHRL."
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "type": "image",
+      "src": "projects/crack-v2/crack-v2-electrical.png",
+      "caption": "CRACK V2 and STACK's electrical wiring diagram.",
+      "size": "medium"
+    },
+    {
+      "type": "text",
+      "value": "At NHRL, CRACK V2 ran into issues due to poorly soldered connections, and was forced to forfeit its first fight against Mister Roper. However, we got a lucky streak, by receiving both a bye, and then a forfeit over Kaizen Spirit, qualifying us for the playoffs. Right before our first fight, the hammer's motor set screw came loose, meaning our weapon was completely down in our fight against Nitro-Oxide. My driving was also just not very good, leading to us to get flipped within the first 3 seconds of the fight through a failed box rush. We ended that event with a 1-3 record, but still good for 5th-8th place."
+    },
+    {
+      "type":"image",
+      "src": "projects/crack-v2/crack-vs-nitro.png",
+      "caption": "oopsies",
+      "size": "medium"
+    },
+    {
+      "type": "heading",
+      "value": "CRACK V2 at Robobrawl 2024"
+    },
+    {
+      "type": "text",
+      "value": "After NHRL, we returned to UIUC and were determined to fix any remaining issues. The slipped output pinion was welded to the shaft to ensure it would never slip again, and wheels were mounted with more loctite to prevent loosening. We ended that event with a 2-2 record, good for 5th-6th place. Despite some more poor driving on my part, we were still able to cause one of the largest LiPo fires in Robobrawl history, requiring a full evacuation of the large Stock Pavilion."
+    },
+    {
+      "type": "carousel",
+      "images": [
+        {
+          "src": "projects/crack-v2/crack-vs-brent-bot.png",
+          "caption": "CRACK V2 with its weapon lodged inside of Brett Bot's power switch."
+        },
+        {
+          "src": "projects/crack-v2/crack-vs-goose.png",
+          "caption": "CRACK V2 on its way out of the arena after getting hit by Goose."
+        },
+        {
+          "src": "projects/crack-v2/crack-vs-harold.jpg",
+          "caption": "CRACK V2 with its hammer lodged inside of Harold's LiPo battery."
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "type": "heading",
+      "value": "CRACK V2 at NHRL Teams"
+    },
+    {
+      "type": "image",
+      "src": "projects/crack-v2/nhrl-teams.png",
+      "caption": "The full Midwest Collegiate Crusaders team. Left to right: Franklin, Crack V2, and RoboCat.",
+      "size": "medium"
+    },
+    {
+      "type": "text",
+      "value": "After Robobrawl, we were invited to participate at NHRL Teams by the University of Cincinnati's combat robotics team. We formed a team, named the \"Midwest Collegiate Crusaders\", and went to compete."
+    },
+    {
+      "type": "text",
+      "value": "In our preliminary matches, we were off to a hot start, defeating Smack-O-Lantern through some brutal hits to their top plate. We then were able to take down Vorion, the 4th best 30lb combat robot in the world at the time through a bit of luck and a lot of percussive maintenance leading to a strong judges decision in our favor. We had secured playoffs, so we quickly tapped out of our next match against Pepe Silvia, but not before showcasing our new \"cow-catcher\" forks made specifically for this fight."
+    },
+    {
+      "type": "image",
+      "src": "projects/crack-v2/crack-vs-smack-o-lantern.png",
+      "caption": "CRACK V2 hitting Smack-O-Lantern's top plate, causing a small fire.",
+      "size": "medium"
+    },
+    {
+      "type": "text",
+      "value": "In the playoffs, we faltered after making poor decisions. We forgot to test the robot immediately after the match, and installed the incorrect batteries as well. This caused us to enter our playoffs match against Colossal Avian without a working weapon, and we got demolished. However, as a sportsman robot, we were more than impressed with how well the robot has done, landing at 5-8th place. We are now looking towards a version 3 for next year."
+    },
+    {
+      "type": "image",
+      "src": "projects/crack-v2/crack-vs-colossal-avian.png",
+      "caption": "CRACK V2 getting demolished by Colossal Avian in the playoffs.",
+      "size": "medium"
+    }
+  ]
+}

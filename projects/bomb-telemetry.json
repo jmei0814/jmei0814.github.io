@@ -1,0 +1,19 @@
+{
+  "title": "BOMB Telemetry Board",
+  "subtitle": "Fall 2025 \u2014 Ongoing",
+  "status": "Ongoing",
+  "subheader": "The BOMB (Battlebots Onboard Monitoring Board) is a device that hopefully tries to bring a new era of data to combat robotics.",
+  "heroImage": "projects/bomb-telemetry/hero.png",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/bomb-telemetry/back.png",
+      "size": "medium",
+      "caption": "Back of the board. We are running an ESP32S3 for logic, and an SD card for on-board storage."
+    },
+    {
+      "type": "text",
+      "value": "This project is still underway, but the board is currently being assembled. More to come soon..."
+    }
+  ]
+}

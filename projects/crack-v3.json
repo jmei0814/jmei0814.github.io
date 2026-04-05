@@ -1,0 +1,63 @@
+{
+  "title": "CRACK? V3 - 30lb Autonomous Combat Robot",
+  "subtitle": "ECE445 Senior Design \u2014 Completed May 2025",
+  "status": "Completed",
+  "subheader": "CRACK V3 was our freshman robot's last hurrah, with the singular goal of being able to drive fully autonomously in the arena.",
+  "heroImage": "projects/crack-v3/hero.jpg",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/crack-v3/custom-board-flow.png",
+      "caption": "The custom board that was developed for the project.",
+      "size": "medium"
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "embed",
+            "embedType": "google-slides",
+            "url": "https://docs.google.com/presentation/d/1zw9L4n9T4s_AjT9_8tPJ3KqzGpRr4rrRI-yaf9JruK8/embed",
+            "label": "ECE445 Final Presentation"
+          }
+        ],
+        [
+          {
+            "type": "link",
+            "url": "https://github.com/QinghuaYao/ECE445-notebook/tree/main/Jason",
+            "label": "GitHub Notebook",
+            "icon": "github"
+          }
+        ]
+      ]
+    },
+    
+    {
+      "type": "text",
+      "value": "Final project presentation and the github link. Below is the final document that I wrote for the class."
+    },
+
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "embed",
+            "embedType": "google-doc",
+            "url": "https://drive.google.com/file/d/1ntg2wBhFpPg1CdEBVoChkuEVaOjwb0Qco-tLip3O0PQ/preview",
+            "label": "ECE445 Final Report",
+            "ratio": "3:4"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/crack-v3/post-robobrawl.jpg",
+            "caption": "Post Robobrawl X, the weapon and side rails were absolutely obliterated by Roundhouse and had to be reprinted in PLA."
+          }
+        ]
+      ]
+    }
+  ]
+}

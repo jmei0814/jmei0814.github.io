@@ -1,0 +1,14 @@
+{
+  "title": "Real-Time Speaker Recognition",
+  "subtitle": "ECE420 Final Project \u2014 Completed May 2025",
+  "subheader": "This project is a real-time speaker identification Android application that recognizes which enrolled speaker is currently talking using live microphone input, completed as a final project for ECE420. The app runs entirely on-device, offering immediate visual and confidence feedback without requiring server-side inference.",
+  "status": "Completed",
+  "heroImage": "projects/speaker-recognition/hero.png",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/speaker-recognition/flow-diagram.png",
+      "caption": "Technical diagram and flow of data across the project."
+    }
+  ]
+}

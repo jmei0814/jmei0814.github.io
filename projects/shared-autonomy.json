@@ -1,0 +1,12 @@
+{
+  "title": "Model-Based Shared Autonomy for Robust Teleoperation",
+  "subtitle": "MS Thesis \u2014 Fall 2025 \u2013 Summer 2026",
+  "status": "Ongoing",
+  "heroImage": "https://lh3.googleusercontent.com/sitesv/APaQ0SSGd5OS075EFJB_1CkOskzelQ2XvysuaQcwJAIrYOGgBicXR0rxTKwO-BtMzqwSxfojHXsjs_UJkwNLjYRAVvkO_yAspuRsX793ygpiGGQHnuJk-CfLJfUcqEP6ZUfnjYTSNzglQotBM6jfVFsa9ZbVEiXoiFH7x5QNpRBMFTylAi3CgpHDQeWgX3pVvCUXfHrDUIrm01Jkxrn7GTTh5u__QSSFas9swFN6WFI=w1280",
+  "content": [
+    {
+      "type": "text",
+      "value": "For my MS thesis, my project is to develop a teleoperation system for an mobile manipulator robot."
+    }
+  ]
+}

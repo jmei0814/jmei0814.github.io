@@ -1,0 +1,36 @@
+{
+  "title": "Apteryx - 1lb. Kiwi-drive Robot",
+  "subtitle": "Completed July 2024",
+  "status": "Completed",
+  "subheader": "Apteryx is the second antweight combat robot that I developed, made to compete in the plastic antweight class at BetzBotz July. \"Kiwi-drive crusher\" is a inside joke within the combat robotics community, as it's never going to be very competitive. Regardless, the chassis design allows it to potentially mount a soldering iron to burn through top plates.",
+  "heroImage": "projects/apteryx/hero.png",
+  "content": [
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/apteryx/pablo.png",
+            "caption": ""
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/apteryx/nova.png",
+            "caption": ""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Apteryx executing pins and crushes on Pablo and Nova, respectively"
+    },
+    {
+      "type": "text",
+      "value": "The key new development that separates Apteryx from other kiwi-drive robots is the recessed back wheel. It allows for a significant reduction in size and weight, in exchange for a moderate loss in mobility. I plan on continuing to update the design in the future, ideally attempting to run both Apteryx and an alternative robot in the fall's DPD season."
+    }
+  ]
+}

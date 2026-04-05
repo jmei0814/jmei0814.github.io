@@ -1,0 +1,27 @@
+{
+  "title": "Electrobyte Labs",
+  "subtitle": "Completed May 2024",
+  "subheader": "Over the summer, I started a small business with my cofounder Joey Harounian, called Electrobyte Labs. Its goal is to bring computer engineering (specifically PC building) to our local town. Additionally, we plan on selling custom-made keyboards through a keyboard manufacturer connection.",
+  "status": "Completed",
+  "heroImage": "projects/electrobyte-labs/hero.png",
+  "content": [
+    {
+      "type": "text",
+      "value": "Much of the work we've done has been to set up a storefront and a website. We've partnered with LongWings EDU, a local afterschool education center, to offer classes teaching students the basics of PC building."
+    },
+    {
+      "type": "link",
+      "url": "https://sites.google.com/view/electrobytelabs",
+      "label": "Our website!",
+      "icon": "external"
+    },
+    {
+      "type": "heading",
+      "value": "Update 5/10/24"
+    },
+    {
+      "type": "text",
+      "value": "Since then, we've decided to end this company, due to lack of support from other members, as well as scheduling issues preventing me for dedicating as much work as I wanted to into development. I've learned a lot from the experience, and I hope to potentially work more within the consumer electronics space in the future."
+    }
+  ]
+}

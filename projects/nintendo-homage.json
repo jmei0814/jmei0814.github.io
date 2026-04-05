@@ -1,0 +1,17 @@
+{
+  "title": "An Homage to Nintendo",
+  "subtitle": "Completed May 2022",
+  "subheader": "For my senior year of high school, I wanted to write a piece that was a homage to Nintendo, as I had been a huge fan of their games for as long as I could remember.",
+  "status": "Completed",
+  "heroImage": "projects/nintendo-homage/hero.png",
+  "content": [
+    {
+      "type": "embed",
+      "embedType": "external",
+      "url": "https://musescore.com/user/27187548/scores/7025623/embed",
+      "size": "medium",
+      "ratio": "5:4",
+      "label": "An Homage to Nintendo - Jason Mei"
+    }
+  ]
+}

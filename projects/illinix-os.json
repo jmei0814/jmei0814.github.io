@@ -1,0 +1,22 @@
+{
+  "title": "Illinix OS",
+  "subtitle": "ECE391 Final Project \u2014 Completed December 2024",
+  "status": "Completed",
+  "heroImage": "projects/illinix-os/hero.png",
+  "content": [
+    {
+      "type": "text",
+      "value": "For our final project for ECE391 - Computer Systems Laboratory, we were tasked with building a RISC-V based operating system. One of the extra credit projects I worked on solo was a video player with a custom file system."
+    },
+    {
+      "type": "image",
+      "src": "projects/illinix-os/code.png",
+      "size": "medium",
+      "caption": "Mildly grainy image of some of the extra credit code for making a video player."
+    },
+    {
+      "type": "text",
+      "value": "Almost all of our final project cannot be shown because the class is still being taught, so I cannot show it here. However, the demo for extra credit is still available for your viewing pleasure. A custom file format was developed for converting standard video into ASCII art, and we were able to peak at about a clear 15-20 FPS with stability. For this video, we play at 6 fps so that the video lines up perfectly with the actual original video. The original video itself is \"Bad Apple!!\" from the Touhou Project series, playing into an old internet meme that \"if it exists, you can play Bad Apple on it\"."
+    }
+  ]
+}

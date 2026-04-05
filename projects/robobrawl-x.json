@@ -1,0 +1,85 @@
+{
+  "title": "Robobrawl X",
+  "subtitle": "Completed April 2025",
+  "subheader": "Robobrawl X was Robobrawl's tenth year. Founded in 2015, my goal was to run the largest Robobrawl ever, and with the even loftier goal of hosting the largest featherweight competition ever.",
+  "status": "Completed",
+  "heroImage": "projects/robobrawl-x/hero.jpg",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/robobrawl-x/all-competitors.png",
+      "caption": "I'm all the way on the left, alongside about 100 competitors. We're in front of Nuclear Engineering Laboratory, which was our pits for that year."
+    },
+    {
+      "type": "text",
+      "value": "I would say most of the work that I did is not very interesting, but I was responsible for advertising our event to sponsors, competitors, and our audience."
+    },
+    {
+      "type": "columns",
+      "columns": [
+        [
+          {
+            "type": "image",
+            "src": "projects/robobrawl-x/advertising-designs.png",
+            "caption": ""
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "src": "projects/robobrawl-x/poster.png",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "projects/robobrawl-x/main-page.png",
+            "caption": ""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Here's some designs from the advertising of the event. The drawings were not done by me, but the logo and graphic designs were my work, done mostly in Adobe Illustrator and After Effects!"
+    },
+    {
+      "type": "embed",
+      "embedType": "youtube",
+      "url": "https://www.youtube.com/embed/Fb-9EI5M-XI",
+      "label": "Here's a 2 hour summary of every fight that occured.",
+      "size": "medium"
+    },
+    {
+      "type": "heading",
+      "value": "What went wrong?"
+    },
+    {
+      "type": "text",
+      "value": "Overall, the event went well besides one glaring error - the arena floor had a huge gap in it, which robots consistently got stuck in. We had multiple issues with this, and spent a majority of the event trying to fix. However, next year's coordinator has laid out plans to fix the floor. In the planning phase, we would've been able to solve this, but we ran into countless roadblocks:\n\n- This was Robobrawl's first year being financially independent from iRobotics, so we were required to find our own sponsors and make our own money\n- Robobrawl was moved from Stock Pavilion (huge open area) to the Nuclear Engineering Laboratory (about 1/3rd the size)\n- Arena issues plagued the construction, we built the entire arena within 18 hours, while teardown took about 4 days\n- Poor refereeing on my part (with the addition of constant stress of money being on the line) led to arguments with competitors"
+    },
+    {
+      "type": "heading",
+      "value": "What went right?"
+    },
+    {
+      "type": "text",
+      "value": "Aside from the goal of being the largest featherweight event in history, we were able to use our sponsors to make the arena as safe as possible. We added a new ventilation system that was able to fully cycle air in and out of the arena within 5 minutes, which was a huge improvement over last year's affairs. We had three instances of unsafe fires within the arena this year, and we were able to immediately pause the match, let the fire cook off, and utilize a proper safety procedure that protected the audience. Additionally, we swapped our significantly older polycarbonate walls with new 1/2\" lexan sheets, which made our cage about as safe as the one that the Battlebots (250lbs) competition uses.\n\nI was able to raise approximately $20K total in sponsorship donations in a single year, and we used approximately $12K, with the remaining money being left as a layover for next year's team."
+    },
+    {
+      "type": "heading",
+      "value": "Robobrawl X by the Numbers"
+    },
+    {
+      "type": "text",
+      "value": "Total viewers: 5.1K - most in Robobrawl history (the same amount as Motorama Robot Conflict 2025)\n\nTotal 30lb competitors: 32 - largest featherweight event in the Americas ever (previously set by Robobrawl 2023 with 26 competitors)\n\nTotal 1lb competitors: 32 - largest DPD event ever (with 16 plastic antweights, and 16 open antweights)\n\nPrize pool: $2000 - second largest prize pool ever (again, NHRL has the largest by far)"
+    },
+    {
+      "type": "heading",
+      "value": "Looking back..."
+    },
+    {
+      "type": "text",
+      "value": "I think the event was a success, and Robobrawl is in a much better position (both financially and competitively) to pursue events in the future. Competitors have noted in their post-event surveys that they would love to come back in the future. I myself have taken a step back from the president position as I'm now the president of iRobotics, but I'm definitely still mentoring the new logistics coordinator and president."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Badger - FTC Robotics",
+  "subtitle": "Completed March 2022",
+  "subheader": "Badger was the FTC robot that I built for my high school team, the Great Neck North Goatbusters, during the 2021-2022 season. We won the SPBLI Qualifier, finished 5th place in qualifiers, and 3rd place for Innovate Award.",
+  "status": "Completed",
+  "heroImage": "projects/badger-ftc/hero.png",
+  "content": [
+    {
+      "type": "link",
+      "url": "https://ftcscout.org/teams/13375?season=2021",
+      "label": "FTC Scout Info for 13375 Great Neck North Goatbusters",
+      "icon": "external"
+    }
+  ]
+}

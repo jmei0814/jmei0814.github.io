@@ -1,0 +1,13 @@
+{
+  "title": "Modulo 100% - Custom FPGA Keyboard",
+  "subtitle": "Paused August 2025",
+  "subheader": "Inspired by high-performance designs like Nyan Keys and the modular flexibility of boards like Everest Max, this project attempted to integrate hot-swappable components with FPGA-driven key scanning and USB HID transmission.",
+  "status": "Paused",
+  "heroImage": "projects/modulo/hero.png",
+  "content": [
+    {
+      "type": "text",
+      "value": "This project is still under progress, stay tuned!"
+    }
+  ]
+}
