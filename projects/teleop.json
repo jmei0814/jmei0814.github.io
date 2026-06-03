@@ -1,13 +1,20 @@
 {
   "title": "Model-Based Shared Autonomy for Robust Teleoperation",
   "subtitle": "MS Thesis \u2014 Fall 2025 \u2013 Summer 2026",
-  "status": "Ongoing",
-  "subheader": "For my MS thesis, my project is to develop a teleoperation system for an mobile manipulator robot.",
+  "status": "Completed",
+  "subheader": "For my MS thesis, my project was to develop a teleoperation system for an mobile manipulator robot.",
   "heroImage": "projects/teleop/hero.jpg",
   "content": [
     {
+      "type": "embed",
+      "embedType": "google-doc",
+      "url": "https://drive.google.com/file/d/1kyZhrNPc9c89PG1Qng_l7z4XxsWoXc2c/preview",
+      "label": "Final Thesis",
+      "ratio": "3:2"
+    },
+    {
       "type": "text",
-      "value": "Work in progress..."
+      "value": "Thank you to my advisor, Shenlong Wang, for his help and guidance through this thesis, as well as the rest of the ReasonNav team: Henry Che, Gloria Wang, and Wenzhou Ding."
     }
   ]
 }
