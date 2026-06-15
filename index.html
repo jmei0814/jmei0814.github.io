@@ -650,7 +650,7 @@
     <div class="hero-text">
       <!-- <div class="hero-label">Portfolio — UIUC '26</div> -->
       <h1>Hi, I'm <em>Jason!</em> <br> I'm passionate about <em>building things that matter.</em></h1>
-      <p class="hero-sub">I'm a returning master's student at the University of Illinois Urbana-Champaign, specializing in computer hardware at the Grainger College of Engineering. I'm interested in robotics, visual design, and music, and this site is a personal portfolio to some of my work.</p>
+      <p class="hero-sub">I graduated from the University of Illinois Urbana-Champaign with a Master of Science in Electrical and Computer Engineering, and am now working at Apple as a Hardware Engineer. I'm interested in robotics, visual design, and music, and this site is a personal portfolio to some of my work.</p>
       <div class="hero-links">
         <a href="#contact" class="primary">Get in Touch →</a>
       </div>
@@ -767,7 +767,7 @@
     <img class="about-photo" src="images/about-me.jpg" alt="Jason Mei">
     <div class="about-text">
       <h3><em>Hi, nice to meet you!</em></h3>
-      <p>I entered UIUC as an Information Sciences major and graduated in May 2025 with a Bachelor's degree in Computer Engineering with highest honors. I'm now a returning master's student specializing in computer hardware at the Grainger College of Engineering.</p>
+      <p>I entered UIUC as an Information Sciences major and graduated in May 2026 with a Master of Science degree in Electrical and Computer Engineering. I'm now a Graphics Cache Hierarchy Design Verification Engineer at Apple.</p>
       <p>I've grown up with robotics — from First Lego League in elementary school to my current presidency of iRobotics, the largest robotics RSO on campus. I try to involve myself with practical robotics development as much as possible.</p>
       <p>When I'm not being productive, working on passion projects, or drowning in schoolwork, I enjoy playing video games, performing and composing music, and being bad at volleyball.</p>
       <div class="about-interests">
@@ -1148,6 +1148,28 @@
   // Project card clicks — pass the card element for origin animation
   document.querySelectorAll('.project-card[data-project]').forEach(card => {
     card.addEventListener('click', () => openModal(card.dataset.project, card));
+    
+    // Preload hero image on hover
+    card.addEventListener('mouseenter', () => {
+      const slug = card.dataset.project;
+      
+      // If already cached, skip fetching
+      if (cache[slug]) return;
+      
+      // Fetch and cache the data when hovering
+      fetch('projects/' + slug + '.json')
+        .then(r => r.json())
+        .then(data => {
+          cache[slug] = data;
+          // Preload the hero image
+          const heroImageSrc = data.heroImage || (data.images && data.images.length > 0 ? data.images[0].src : null);
+          if (heroImageSrc) {
+            const img = new Image();
+            img.src = heroImageSrc;
+          }
+        })
+        .catch(() => {});
+    });
   });
 
   // Handle direct URL with hash

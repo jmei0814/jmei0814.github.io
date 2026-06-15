@@ -1,7 +1,7 @@
 {
   "title": "BOMB Telemetry Board",
-  "subtitle": "Fall 2025 \u2014 Ongoing",
-  "status": "Ongoing",
+  "subtitle": "Fall 2025 \u2014 Paused",
+  "status": "Paused",
   "subheader": "The BOMB (Battlebots Onboard Monitoring Board) is a device that hopefully tries to bring a new era of data to combat robotics.",
   "heroImage": "projects/bomb-telemetry/hero.png",
   "content": [
