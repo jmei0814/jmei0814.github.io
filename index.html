@@ -748,11 +748,11 @@
   <div class="section-header reveal"><h2>Designs</h2><span class="section-number">02 / 03</span></div>
   <p style="color:var(--text-secondary);font-weight:300;margin-bottom:2.5rem;max-width:1000px" class="reveal">I occasionally dabble in visual design work, primarily for clubs that I participate in.</p>
   <div class="designs-grid">
-    <div class="design-card reveal"><div class="design-card-image"><img src="images/irobotics-posters.png" alt="iRobotics Posters" loading="lazy"></div><div class="design-card-content"><h3>iRobotics Posters</h3><p>Fall 2025 / Spring 2026 — Adobe Photoshop posters for iRobotics teams. The high-resolution versions of the posters are downloadable <a href="https://drive.google.com/drive/folders/1cIPOTscppG_RbCGCMK5ogo45bueU90jf?usp=sharing" target="_blank">here</a>.</p></div></div>
-    <div class="design-card reveal"><div class="design-card-image"><img src="images/quack-design.png" alt="quack design" loading="lazy"></div><div class="design-card-content"><h3>quack. Brand</h3><p>Fall 2025 — Logo and sticker design for the quack. combat robot. More info about the actual robot <a href="http://jmei0814.com/#project/quack" target="_blank">here</a>.</p></div></div>
-    <div class="design-card reveal"><div class="design-card-image"><img src="images/robobrawl-x-design.png" alt="Robobrawl X design" loading="lazy"></div><div class="design-card-content"><h3>Robobrawl X Brand Package</h3><p>Fall 2024 / Spring 2025 — Stream elements, merchandise, and logos for the tenth anniversary. More info about the actual event (and my logistics work) <a href="http://jmei0814.com/#project/robobrawl-x" target="_blank">here</a>.</p></div></div>
-    <div class="design-card reveal"><div class="design-card-image"><img src="images/apteryx-design.png" alt="Apteryx design" loading="lazy"></div><div class="design-card-content"><h3>Apteryx Logo</h3><p>Summer 2024 — V-Tuber-themed kiwi logo for the Apteryx antweight robot. More info about the actual robot <a href="http://jmei0814.com/#project/apteryx" target="_blank">here</a>.</p></div></div>
-    <div class="design-card reveal"><div class="design-card-image"><img src="images/crack-logo.png" alt="CRACK logo" loading="lazy"></div><div class="design-card-content"><h3>CRACK? Logo</h3><p>Spring 2023 — Weapon-shaped logo turned into team hoodies. More info about the actual robot <a href="http://jmei0814.com/#project/crack" target="_blank">here</a>.</p></div></div>
+    <div class="design-card reveal"><div class="design-card-image"><img src="images/irobotics-posters.png" alt="iRobotics Posters" loading="lazy"></div><div class="design-card-content"><h3>iRobotics Posters</h3><p>Fall 2025 / Spring 2026 — Adobe Photoshop posters for iRobotics teams. The high-resolution versions of the posters are downloadable <a href="https://drive.google.com/drive/folders/1cIPOTscppG_RbCGCMK5ogo45bueU90jf?usp=sharing" target="_blank" rel="noopener">here</a>.</p></div></div>
+    <div class="design-card reveal"><div class="design-card-image"><img src="images/quack-design.png" alt="quack design" loading="lazy"></div><div class="design-card-content"><h3>quack. Brand</h3><p>Fall 2025 — Logo and sticker design for the quack. combat robot. More info about the actual robot <a href="https://www.jmei0814.com/#project/quack" target="_blank" rel="noopener">here</a>.</p></div></div>
+    <div class="design-card reveal"><div class="design-card-image"><img src="images/robobrawl-x-design.png" alt="Robobrawl X design" loading="lazy"></div><div class="design-card-content"><h3>Robobrawl X Brand Package</h3><p>Fall 2024 / Spring 2025 — Stream elements, merchandise, and logos for the tenth anniversary. More info about the actual event (and my logistics work) <a href="https://www.jmei0814.com/#project/robobrawl-x" target="_blank" rel="noopener">here</a>.</p></div></div>
+    <div class="design-card reveal"><div class="design-card-image"><img src="images/apteryx-design.png" alt="Apteryx design" loading="lazy"></div><div class="design-card-content"><h3>Apteryx Logo</h3><p>Summer 2024 — V-Tuber-themed kiwi logo for the Apteryx antweight robot. More info about the actual robot <a href="https://www.jmei0814.com/#project/apteryx" target="_blank" rel="noopener">here</a>.</p></div></div>
+    <div class="design-card reveal"><div class="design-card-image"><img src="images/crack-logo.png" alt="CRACK logo" loading="lazy"></div><div class="design-card-content"><h3>CRACK? Logo</h3><p>Spring 2023 — Weapon-shaped logo turned into team hoodies. More info about the actual robot <a href="https://www.jmei0814.com/#project/crack-v1" target="_blank" rel="noopener">here</a>.</p></div></div>
     <div class="design-card reveal"><div class="design-card-image"><img src="images/diy-illini-rebrand.png" alt="DIY Illini" loading="lazy"></div><div class="design-card-content"><h3>DIY Illini Rebrand</h3><p>Spring 2023 — Logo redesign, fliers, and membership card system.</p></div></div>
     <div class="design-card reveal"><div class="design-card-image"><img src="images/habitapp-ui-ux.png" alt="HabitApp" loading="lazy"></div><div class="design-card-content"><h3>HabitApp UI/UX</h3><p>Fall 2022 — Gamified productivity app design for CS124 Honors.</p></div></div>
     <!-- Empty divs to fill out the grid -->
@@ -837,7 +837,7 @@
   const cache = {};
   let isClosing = false;
  
-  function openModal(slug, originCard) {
+  function openModal(slug, originCard, skipHistory) {
     // Set transform-origin to card center if we have it
     if (originCard) {
       const rect = originCard.getBoundingClientRect();
@@ -872,7 +872,7 @@
     modalStatus.textContent = '';
     modalStatus.className = 'modal-status-badge';
  
-    history.pushState(null, '', '#project/' + slug);
+    if (!skipHistory) history.pushState(null, '', '#project/' + slug);
  
     if (cache[slug]) {
       renderModal(cache[slug]);
@@ -1126,14 +1126,14 @@
     return h;
   }
  
-  function closeModal() {
+  function closeModal(skipHistory) {
     if (isClosing) return;
     isClosing = true;
     backdrop.classList.remove('open');
     panel.classList.remove('open');
     panel.classList.add('closing');
     document.body.classList.remove('modal-open');
-    history.pushState(null, '', window.location.pathname);
+    if (skipHistory !== true) history.pushState(null, '', window.location.pathname);
     setTimeout(() => {
       panel.classList.remove('closing');
       isClosing = false;
@@ -1181,9 +1181,9 @@
 // Handle back/forward
   window.addEventListener('popstate', () => {
     if (window.location.hash.startsWith('#project/')) {
-      openModal(window.location.hash.replace('#project/', ''));
+      openModal(window.location.hash.replace('#project/', ''), null, true);
     } else if (panel.classList.contains('open')) {
-      closeModal();
+      closeModal(true);
     }
   });
 

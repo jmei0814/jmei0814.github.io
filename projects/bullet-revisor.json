@@ -3,7 +3,7 @@
   "subtitle": "Fall 2025 \u2014 Ongoing",
   "subheader": "A small-scale app that tailors a LaTEX resume's bullet points to any given job description using embedding similarity.",
   "status": "Ongoing",
-  "heroImage": "projects/bullet-revisor/hero.jpg",
+  "heroImage": "projects/bullet-revisor/hero.png",
   "content": [
     {
       "type": "text",
@@ -12,8 +12,7 @@
     {
       "type": "image",
       "src": "projects/bullet-revisor/sample.png",
-      "href": "https://bulletrevisor.jmei0814.com/",
-      "caption": "try it here!"
+      "caption": "Try it here!"
     }
   ]
   
